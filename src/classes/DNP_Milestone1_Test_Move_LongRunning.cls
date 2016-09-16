@@ -39,6 +39,7 @@ private with sharing class DNP_Milestone1_Test_Move_LongRunning {
 		Set<Id> dstMilestoneSet = new Set<Id>();
 
     	// Create projects
+	// create projects test
 		List<Milestone1_Project__c> pList = new List<Milestone1_Project__c>();
 		pList.add( Milestone1_Test_Utility.sampleProject('Src Project') ); 
 		pList.add( Milestone1_Test_Utility.sampleProject('Dst Project') ); 
